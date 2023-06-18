@@ -12,7 +12,7 @@ To get started, clone this repository to your local machine using the following 
 
 ## Navigate to the Project
 
-Navigate to the project's directory using the following command: cd ssy-dry/reight-Summary
+Navigate to the project's directory using the following command: cd ssy-dry/freight-Summary
 
 
 ## Install Dependencies
