@@ -1,0 +1,12 @@
+.border {
+    border-color: #ccc;
+    background-color:white;
+}
+
+.section {
+    padding: 60px 0
+}
+
+.section-title {
+    padding: 30px
+}

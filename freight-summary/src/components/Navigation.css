@@ -1,0 +1,150 @@
+.navbar {
+  background-color: rgb(0, 0, 0);
+}
+
+:root {
+  --image-url: url("https://www.ssyonline.com/media/2114/269_r-ssy-logo_white.png");
+}
+
+.custom-image {
+  /* Add your desired styles here */
+  content: var(--image-url);
+  width: 100% !important;
+  min-width: 265px;
+  margin: 13.5px 0;
+}
+
+.nav-item {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* burger menu */
+.navbar-toggler {
+  border: none; 
+  outline: none; 
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Navigation.css */
+
+/* toggler-icon */
+.navbar-toggler {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  transition: 0.5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: white;
+  position: relative;
+}
+
+.navbar-toggler span {
+  margin: 0;
+  padding: 0;
+}
+
+.toggler-icon {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: white;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+.middle-bar {
+  margin-top: 0px;
+}
+
+/* State when the navbar is collapsed */
+
+.navbar-toggler.collapsed .top-bar {
+  position: absolute;
+  top: 0px;
+  transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  position: absolute;
+  top: 20px;
+  transform: rotate(0deg);
+}
+
+/* when navigation is clicked */
+
+.navbar-toggler .top-bar {
+  top: inherit;
+  transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  top: inherit;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+  top: inherit;
+  transform: rotate(-135deg);
+}
+
+/* Navigation.css */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh; 
+  background-color: rgb(61, 59, 59);
+  padding-top: 50px; 
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-100%);
+}
+
+.sidebar.show {
+  transform: translateX(0);
+}
+
+.navbar-nav.flex-column {
+  padding-left: 15px; 
+}
+
+.nav-link {
+  color: white; 
+}
+
+.nav-link:hover {
+  color: white; 
+}
+
+.custom-image {
+  max-width: 100px; 
+  height: auto;
+}

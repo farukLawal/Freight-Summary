@@ -1,0 +1,13 @@
+.table-container {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.table-bordered {
+  border: 1px solid #ccc;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #ccc;
+}

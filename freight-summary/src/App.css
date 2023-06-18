@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 9999;
+}
+
+.loader {
+  position: relative;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h2 {
+  position: relative;
+  display: inline-block;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  /* background-color: rgba(172, 165, 165, 0.99); */
+}
+
+.section-title {
+  padding: 30px;
+}
+
+/* Input box styles */
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+/* Variables */
+:root {
+  --background: #f5f6fa;
+  --text: #000000;
+  --font-headings: "Raleway", sans-serif;
+}
+
+/* General Styles */
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: "PT Sans", sans-serif;
+}
+
+h2 {
+  font-family: var(--font-headings);
+  font-weight: bold;
+}
+
+.btn-sm {
+  /* font-weight: bold; */
+  background-color: white;
+}
+
+.btn-sm:hover {
+  background-color: var(--background);
+  color: white;
+}
+
+/* pre-loader */
+
+/* App.css */
+
+.pre-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.pre-loader-spinner {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
