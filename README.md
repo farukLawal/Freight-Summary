@@ -17,7 +17,7 @@ Navigate to the project's directory using the following command: cd Freight-Summ
 
 ## Install Dependencies
 
-Install the project dependencies by running the following command: npm install
+Install the project dependencies by running the following command: npm install bootstrap
 
 ## Run the Project
 
