@@ -22,9 +22,9 @@ To run the project, use the following command: `npm start`
 
 The project will be running on [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Customization
+## Customisation
 
-Feel free to customize and modify the project according to your needs. You can explore the project's files and make changes to suit your requirements.
+Feel free to customise and modify the project according to your needs. You can explore the project's files and make changes to suit your requirements.
 
 ## Contributing
 
@@ -36,6 +36,6 @@ If you'd like to contribute to this project, you can follow these steps:
 4. Push your changes to your forked repository.
 5. Submit a pull request detailing your changes.
 
-## License
+## Licence
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT Licence](LICENSE).
