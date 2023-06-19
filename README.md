@@ -8,7 +8,7 @@ Before running this project, ensure that you have [Node.js](https://nodejs.org/)
 
 ## Clone the Repository
 
-To get started, clone this repository to your local machine using the following command: git clone https://github.com/farukLawal/Freight-Summary
+To get started, clone this repository to your local machine using the following command: git clone https://github.com/farukLawal/ssy-dry
 
 ## Navigate to the Project
 
