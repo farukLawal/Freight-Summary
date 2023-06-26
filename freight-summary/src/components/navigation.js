@@ -7,14 +7,14 @@ import "./Navigation.css";
 const Navigation = () => {
   const [collapsed, setCollapsed] = useState(true);
 
-  const handleClick = (section) => {
-    scroller.scrollTo(section, {
-      duration: 500,
-      smooth: true,
-      offset: -50,
-    });
-    setCollapsed(!collapsed); // Toggle the value of collapsed
-  };
+  // const handleClick = (section) => {
+  //   scroller.scrollTo(section, {
+  //     duration: 500,
+  //     smooth: true,
+  //     offset: -50,
+  //   });
+  //   setCollapsed(!collapsed); // Toggle the value of collapsed
+  // };
 
   return (
     <nav className="px-0 navbar navbar-expand-lg navbar-dark sticky-top">
